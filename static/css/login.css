@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Google Sans", sans-serif;
-}
+@import url("/static/css/styles.css");
 
 .button-login {
     padding: 15px 20px;
@@ -15,8 +8,8 @@
     text-decoration: none;
     color: rgb(48, 1, 50);
     border-radius: 10px;
-    border: 1px solid rgb(247, 0, 255);
-    box-shadow: 5px 5px 5px rgb(247, 0, 255);
+    border: 1px solid var(--elementos);
+    box-shadow: 5px 5px 5px var(--elementos);
     cursor: pointer;
     width: 100%;
     text-align: center;
@@ -50,7 +43,7 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(27, 2, 32);
+    background-color: var(--fondo-1);
     height: 100%;
     width: 100%;
 }
@@ -77,21 +70,21 @@ form {
     padding: 50px;
     background-color: rgba(216, 33, 216, 0.118);
     border-radius: 20px;
-    border: 1px solid rgb(247, 0, 255);
-    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    border: 1px solid var(--elementos);
+    box-shadow: 5px 5px 10px var(--elementos);
     animation: show 2s;
 }
 
 form h3 {
     font-size: 35px;
-    color: rgb(247, 0, 255);
+    color: var(--elementos);
     max-width: 300px;
     margin-bottom: 20px;
 }
 
 label {
     font-size: 27px;
-    color: rgb(247, 0, 255);
+    color: var(--elementos);
 }
 
 .label-check {
@@ -104,8 +97,8 @@ input {
     border-radius: 10px;
     min-width: 260px;
     background-color: rgba(216, 33, 216, 0.118);
-    border: 1px solid rgb(247, 0, 255);
-    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    border: 1px solid var(--elementos);
+    box-shadow: 5px 5px 10px var(--elementos);
     transition-duration: 0.5s;
     color: rgb(247, 0, 255);
     margin-bottom: 40px;

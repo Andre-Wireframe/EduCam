@@ -1,0 +1,26 @@
+@import url("/static/css/styles.css");
+
+body {
+    background-color: rgb(27, 2, 32);
+}
+
+.element-box {
+    padding: 50px;
+    background-color: rgba(216, 33, 216, 0.118);
+    border-radius: 20px;
+    border: 1px solid rgb(247, 0, 255);
+    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    animation: show 2s;
+    margin: 30px 50px;
+}
+
+.content-h3 {
+    font-size: 35px;
+    color: var(--elementos);
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    color: var(--elementos);
+}
