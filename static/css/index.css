@@ -1,26 +1,71 @@
 @import url("/static/css/styles.css");
 
+/* Andre-wireframe */
+
 body {
     background-color: rgb(27, 2, 32);
 }
 
 .element-box {
-    padding: 50px;
-    background-color: rgba(216, 33, 216, 0.118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    background-color: var(--fondo-2);
     border-radius: 20px;
-    border: 1px solid rgb(247, 0, 255);
-    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    border: 1px solid var(--elementos);
+    box-shadow: 5px 5px 10px var(--elementos);
     animation: show 2s;
-    margin: 30px 50px;
+    margin: 80px 70px;
 }
 
 .content-h3 {
-    font-size: 35px;
+    font-size: 40px;
     color: var(--elementos);
-    max-width: 300px;
     margin-bottom: 20px;
+    text-align: center;
+    background-color: var(--fondo-2);
+    box-shadow: 5px 5px 5px var(--elementos);
+    border: 1px solid var(--elementos);
+    padding: 20px 10px;
+    width: 95%;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-img {
+    border: 1px solid var(--elementos);
+    box-shadow: 5px 5px 5px var(--elementos);
+    border-radius: 15px;
+    flex: 1;
+    margin: 0 40px;
+    min-height: 500px;
+    width: 100%;
+}
+
+.text-box {
+    flex: 1;
+    margin: 0 40px;
 }
 
 .content-text {
+    text-align: justify;
+    line-height: 40px;
+    font-size: 27px;
     color: var(--elementos);
+    border: 1px solid var(--elementos);
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px var(--elementos);
+    min-height: 500px;
 }
+
+/* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

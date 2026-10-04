@@ -1,5 +1,7 @@
 @import url("/static/css/styles.css");
 
+/* Andre-wireframe */
+
 .button-login {
     padding: 15px 20px;
     background-color: rgb(255, 127, 253);
@@ -96,7 +98,7 @@ input {
     font-size: 20px;
     border-radius: 10px;
     min-width: 260px;
-    background-color: rgba(216, 33, 216, 0.118);
+    background-color: var(--fondo-2);
     border: 1px solid var(--elementos);
     box-shadow: 5px 5px 10px var(--elementos);
     transition-duration: 0.5s;
@@ -130,3 +132,5 @@ input[type="checkbox"] {
     form {margin: 10px 10px; padding: 30px; text-align: center; box-shadow: 0px 0px 0px transparent;}
     input {min-width: 200px; box-shadow: 0px 0px 0px transparent;}
 }
+
+/* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
