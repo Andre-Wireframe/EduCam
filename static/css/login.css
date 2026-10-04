@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+.button-login {
+    padding: 15px 20px;
+    background-color: rgb(255, 127, 253);
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(48, 1, 50);
+    border-radius: 10px;
+    border: 1px solid rgb(247, 0, 255);
+    box-shadow: 5px 5px 5px rgb(247, 0, 255);
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.button-login:hover {
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px white;
+    border: 1px solid white;
+    background-color: rgba(86, 12, 85, 0.289);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-box {
+    flex: 1;
+    background-color: rgb(236, 131, 253);
+    height: 100%;
+    width: 100%;
+}
+
+.form-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(27, 2, 32);
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+@keyframes show {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+form {
+    padding: 50px;
+    background-color: rgba(216, 33, 216, 0.118);
+    border-radius: 20px;
+    border: 1px solid rgb(247, 0, 255);
+    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    animation: show 2s;
+}
+
+form h3 {
+    font-size: 35px;
+    color: rgb(247, 0, 255);
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 27px;
+    color: rgb(247, 0, 255);
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    min-width: 260px;
+    background-color: rgba(216, 33, 216, 0.118);
+    border: 1px solid rgb(247, 0, 255);
+    box-shadow: 5px 5px 10px rgb(247, 0, 255);
+    transition-duration: 0.5s;
+    color: rgb(247, 0, 255);
+    margin-bottom: 40px;
+}
+
+input:focus {
+    transition-duration: 0.5s;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+    background-color: rgba(255, 0, 255, 0.118);
+}
+
+@media (max-width: 1100px) {
+    .image-box {display: none;}
+}
+
+@media (max-width: 500px) {
+    form {margin: 10px 10px; padding: 30px; text-align: center; box-shadow: 0px 0px 0px transparent;}
+    input {min-width: 200px; box-shadow: 0px 0px 0px transparent;}
+}
