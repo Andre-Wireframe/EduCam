@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
-/*@import url(/static/bootstrap/css/bootstrap.min.css);*/
 
 /* Andre-wireframe */
 
@@ -13,7 +12,8 @@
 :root {
     --fondo-1: white;
     --fondo-2: rgba(216, 33, 216, 0.118);
-    --elementos: rgb(195, 103, 199);
+    --elementos: rgb(235, 12, 242);
+    /*rgb(195, 103, 199)*/
 }
 
 html {

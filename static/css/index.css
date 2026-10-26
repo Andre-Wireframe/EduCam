@@ -44,6 +44,7 @@ header {
     font-weight:900;
     margin-bottom: 25px;
     color: rgb(161, 75, 164);
+    /*rgb(161, 75, 164)*/
 }
 
 .hero-text h2 {
@@ -95,26 +96,24 @@ p {
 
 .text-generic {
     width: 70%;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-top: 5px solid var(--elementos);
+    padding: 150px 0;
+    text-align: justify;
+}
+
+.que-img {
+    margin-bottom: 40px;
 }
 
 .text-generic .container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.text-generic img {
-    flex: 0;
-}
-
-.text-generic p {
-    flex: 1;
+    flex-direction: column;
 }
 
 .marques {
@@ -133,6 +132,23 @@ p {
     height: 120px;
     border-radius: 50%;
     margin: 0 30px;
+}
+
+.anticonceptivos {
+    width: 70%;
+    padding: 70px 0;
+}
+
+.metodo {
+    margin-bottom: 100px;
+    border-bottom: 5px solid var(--elementos);
+    text-align: justify;
+}
+
+.anticonceptivos h4 {
+    color: var(--elementos);
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
