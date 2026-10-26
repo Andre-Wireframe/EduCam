@@ -22,6 +22,20 @@ html {
     scrollbar-color: var(--elementos) var(--fondo-2);
 }
 
+.button-underline {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom: 5px solid var(--elementos);
+    font-weight: 600;
+    color: rgb(109, 41, 111);
+    transition-duration: 0.3s;
+}
+
+.button-underline:hover {
+    background-color: rgb(243, 226, 244);
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -64,6 +78,7 @@ html {
     margin: 0 13px;
     font-size: 20px;
     padding: 10px;
+    transition-duration: 0.3s;
 }
 
 .active {
