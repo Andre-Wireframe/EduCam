@@ -13,7 +13,7 @@
 :root {
     --fondo-1: white;
     --fondo-2: rgba(216, 33, 216, 0.118);
-    --elementos: rgb(247, 0, 255);
+    --elementos: rgb(195, 103, 199);
 }
 
 html {
@@ -23,9 +23,15 @@ html {
 }
 
 .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
+    padding: 0 10px;
+    z-index: 20;
+    background-color: white;
 }
 
 .logo-img {
@@ -41,6 +47,38 @@ html {
 
 .nav-title a {
     text-decoration: none;
+    color: var(--elementos);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 13px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.active {
+    border-bottom: 4px solid var(--elementos);
+}
+
+.nav-item a {
+    color: var(--elementos);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    background-color: rgb(243, 226, 244);
+    border-radius: 5px;
 }
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
