@@ -46,6 +46,7 @@ html {
     padding: 0 10px;
     z-index: 20;
     background-color: white;
+    border-bottom: 2px solid var(--elementos);
 }
 
 .logo-img {

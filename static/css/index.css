@@ -22,7 +22,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.213);
+    background-color: rgba(0, 0, 0, 0.106);
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,7 +32,7 @@ header {
 }
 
 .hero-text {
-    background-color: rgb(216, 201, 215);
+    background-color: white/*rgb(216, 201, 215)*/;
     padding: 50px;
     border-radius: 20px;
     border: 5px solid var(--elementos);
@@ -65,6 +65,18 @@ h3 {
     color: var(--elementos);
 }
 
+.index-nav {
+    position: sticky;
+    top: 80px;
+    left: 0;
+    border-radius: 45px;
+    border: 2px solid var(--elementos);
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    z-index: 2;
+}
+
 .about {
     height: 80vh;
     text-align: center;
@@ -75,10 +87,52 @@ h3 {
     width: 70%;
 }
 
-.about p {
+p {
     font-size: 23px;
     line-height: 35px;
     margin-bottom: 40px;
+}
+
+.text-generic {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 5px solid var(--elementos);
+}
+
+.text-generic .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-generic img {
+    flex: 0;
+}
+
+.text-generic p {
+    flex: 1;
+}
+
+.marques {
+    width: 100%;
+    border-top: 5px solid var(--elementos);
+    border-bottom: 5px solid var(--elementos);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.marques h3 {
+    font-size: 40px;
+}
+
+.carrusel-img {
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 30px;
 }
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
