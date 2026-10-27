@@ -2,6 +2,62 @@
 
 /* Andre-wireframe */
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+h3 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: var(--elementos);
+}
+
+.publicaciones {
+    border-top: 5px solid var(--elementos);
+    padding: 150px 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: var(--elementos);
+}
+
+.publicacion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 3px solid var(--elementos);
+    padding: 70px 20px;
+}
+
+.blog-img {
+    border-radius: 20px;
+    width: 50vw;
+}
+
+.publicacion p {
+    max-width: 50vw;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+small {
+    width: 50vw;
+    color: var(--elementos);
+    font-size: 22px;
+    font-weight: 600;
+}
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

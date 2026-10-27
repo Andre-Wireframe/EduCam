@@ -148,4 +148,20 @@ header {
     margin-bottom: 40px;
 }
 
+.about {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+p {
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

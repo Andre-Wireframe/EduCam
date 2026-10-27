@@ -27,22 +27,6 @@ h3 {
     z-index: 2;
 }
 
-.about {
-    height: 80vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70%;
-}
-
-p {
-    font-size: 23px;
-    line-height: 35px;
-    margin-bottom: 40px;
-}
-
 .text-generic {
     width: 70%;
     display: flex;
@@ -56,6 +40,7 @@ p {
 
 .que-img {
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 .text-generic .container {

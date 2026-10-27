@@ -1,8 +1,8 @@
 # Proyecto EduCam
 
 # Integrantes de equipo
-- André
+- André-Wireframe
 - Luis Hazel
-- Zuleyma
+- Zuleyma Star
 - Mextli Ximena
 - Ulises
