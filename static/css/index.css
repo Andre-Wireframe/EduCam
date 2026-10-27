@@ -2,19 +2,6 @@
 
 /* Andre-wireframe */
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h3 {
-    font-size: 35px;
-    margin-bottom: 40px;
-    color: var(--elementos);
-}
-
 .index-nav {
     position: sticky;
     top: 80px;

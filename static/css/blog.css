@@ -2,19 +2,6 @@
 
 /* Andre-wireframe */
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h3 {
-    font-size: 35px;
-    margin-bottom: 40px;
-    color: var(--elementos);
-}
-
 .publicaciones {
     border-top: 5px solid var(--elementos);
     padding: 150px 0;
@@ -40,6 +27,7 @@ h4 {
     border-radius: 20px;
     border: 3px solid var(--elementos);
     padding: 70px 20px;
+    margin: 50px 0;
 }
 
 .blog-img {

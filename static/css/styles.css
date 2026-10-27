@@ -75,24 +75,24 @@ html {
     list-style: none;
 }
 
-.nav-item {
-    margin: 0 13px;
-    font-size: 20px;
-    padding: 10px;
-    transition-duration: 0.3s;
-}
-
-.active {
-    border-bottom: 4px solid var(--elementos);
-}
-
 .nav-item a {
     color: var(--elementos);
     text-decoration: none;
     font-weight: 500;
 }
 
-.nav-item:hover {
+.nav-item a {
+    margin: 0 13px;
+    font-size: 20px;
+    padding: 9px;
+    transition-duration: 0.3s;
+}
+
+.active a {
+    border-bottom: 4px solid var(--elementos);
+}
+
+.nav-item a:hover {
     background-color: rgb(243, 226, 244);
     border-radius: 5px;
 }
@@ -162,6 +162,19 @@ p {
     font-size: 23px;
     line-height: 35px;
     margin-bottom: 40px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: var(--elementos);
 }
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

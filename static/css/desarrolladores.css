@@ -1,0 +1,20 @@
+@import url("/static/css/styles.css");
+
+/* Andre-wireframe */
+
+.desarrolladores {
+    width: 70%;
+    margin: 150px 0;
+}
+
+.desarrollador {
+    width: 100%;
+    border-bottom: 3px solid var(--elementos);
+}
+
+img {
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+/* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

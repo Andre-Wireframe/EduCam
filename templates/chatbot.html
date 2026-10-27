@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/chatbot.css">
+    <title>EduCam-ChatBot</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a href="/index.html"><img src="/static/img/logo.png" height="40" alt="Logo"class="logo-img"></a>
+            <a href="/index.html">EduCam-Educación Sexual</a>
+        </div>
+
+        <ul class="nav-items">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/templates/chatbot.html">ChatBot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/templates/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/templates/desarrolladores.html">Desarrolladores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cerrar Sesión</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="main">
+        <div class="left-bar">
+            <h3>Instrucciones del ChatBot</h3>
+            <ul>
+                <li>
+                    Una vez iniciada sesión y en la pagina del ChatBot escribe tu pregunta con
+                    texto legible.
+                </li>
+                <li>
+                    Da click en el botón con la lupa para enviar y espera tu respuesta.
+                </li>
+                <li>
+                    Una vez que el Bot contesto puedes realizar otra pregunta
+                </li>
+                <small>
+                    Nota: Las respuestas del ChatBot son generadas con IA, use la información con
+                    precaución, la empresa no se hace responsable.
+                </small>
+            </ul>
+
+            <img class="logo" src="/static/img/logo.png" alt="Logo">
+        </div>
+        <div class="chat">
+            <div class="chat-container">
+                <div class="burble user">
+                    Menciona algunos metodos anticonceptivos utiles para mi.
+                </div>
+                <div class="burble bot">
+                    Algunos de los metodos anticonceptivos mas famosos son 
+                    1.- Condon
+                    2.- Pastillas anticonceptivas
+                </div>
+            </div>
+            <div class="controls">
+                <input type="text">
+                <button class="chat-button">🔎</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

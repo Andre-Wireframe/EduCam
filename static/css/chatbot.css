@@ -1,0 +1,127 @@
+@import url("/static/css/styles.css");
+
+/* Andre-wireframe */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 70px;
+}
+
+.left-bar {
+    flex: 1.4;
+    height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.left-bar ul {
+    list-style: none;
+}
+
+.left-bar li {
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.left-bar small {
+    font-size: 15px;
+    color: var(--elementos);
+    margin: 0 20px;
+}
+
+.logo {
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.chat {
+    flex: 5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    border-left: 5px solid var(--elementos);
+}
+
+.chat-button {
+    font-size: 25px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: var(--elementos);
+    border: 2px solid rgb(135, 2, 139);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.chat-button:hover {
+    background-color: rgb(188, 67, 192);
+}
+
+input {
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 60px;
+    border: 3px solid var(--elementos);
+    width: 60%;
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+input:focus {
+    border: 3px solid rgb(188, 67, 192);
+}
+
+.controls {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 5px solid var(--elementos);
+}
+
+.chat-container {
+    background-color: rgb(229, 157, 231);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.burble {
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 60%;
+    margin-bottom: 20px;
+}
+
+.bot {
+    align-self: flex-start;
+    border: 2px solid rgb(241, 123, 245);
+    background-color: rgb(203, 27, 209);
+    border-radius: 20px 20px 20px 0;
+    color: white;
+    font-weight: 600;
+}
+
+.user {
+    align-self: flex-end;
+    border: 2px solid rgb(157, 33, 161);
+    background-color: rgb(241, 121, 246);
+    color: rgb(135, 3, 140);
+    font-weight: 600;
+    border-radius: 20px 20px 0px 20px;
+}
+
+
+
+/* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
