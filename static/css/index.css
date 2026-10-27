@@ -1,138 +1,137 @@
-@import url("/static/css/styles.css");
+@import url("/static/css/styles.css"); /* Importa una hoja de estilos adicional */
 
 /* Andre-wireframe */
 
-header {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+header { /* Estilos para la cabecera principal */
+    height: 100vh; /* Altura del cien por ciento de la pantalla */
+    width: 100%; /* Ancho completo */
+    overflow: hidden; /* Oculta el contenido que sobresalga */
 }
 
-.head-video {
-    height: auto;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    border: none;
-    aspect-ratio: 16 / 9;
+.head-video { /* Estilos para el video de la cabecera */
+    height: auto; /* Altura automatica */
+    width: 100%; /* Ancho completo */
+    position: relative; /* Posicion relativa */
+    top: 0; /* Arriba en cero */
+    left: 0; /* Izquierda en cero */
+    border: none; /* Sin bordes */
+    aspect-ratio: 16 / 9; /* Proporcion de aspecto de dieciseis novenos */
 }
 
-.hero {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.106);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    z-index: 1;
+.hero { /* Estilos para el contenedor principal de bienvenida */
+    position: absolute; /* Posicion absoluta sobre el video */
+    top: 0; /* Arriba en cero */
+    left: 0; /* Izquierda en cero */
+    background-color: rgba(0, 0, 0, 0.106); /* Fondo semitransparente oscuro */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    display: flex; /* Contenedor flexbox */
+    justify-content: flex-start; /* Alinea los elementos al inicio horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    z-index: 1; /* Capa de apilamiento superior al video */
 }
 
-.hero-text {
-    background-color: white/*rgb(216, 201, 215)*/;
-    padding: 50px;
-    border-radius: 20px;
-    border: 5px solid var(--elementos);
-    margin-left: 50px;
+.hero-text { /* Estilos para la caja de texto principal */
+    background-color: white/*rgb(216, 201, 215)*/; /* Fondo blanco */
+    padding: 50px; /* Relleno interno grande */
+    border-radius: 20px; /* Bordes redondeados */
+    border: 5px solid var(--elementos); /* Borde con variable de color */
+    margin-left: 50px; /* Margen izquierdo */
 }
 
-.hero-text h1 {
-    font-size: 50px;
-    font-weight:900;
-    margin-bottom: 25px;
-    color: rgb(161, 75, 164);
+.hero-text h1 { /* Estilos para el titulo principal del banner */
+    font-size: 50px; /* Tamano de fuente muy grande */
+    font-weight:900; /* Grosor de fuente muy grueso */
+    margin-bottom: 25px; /* Margen inferior */
+    color: rgb(161, 75, 164); /* Color morado para el titulo */
 }
 
-.hero-text h2 {
-    color: var(--elementos);
-    font-size: 25px;
-    margin-bottom: 40px;
+.hero-text h2 { /* Estilos para el subtitulo del banner */
+    color: var(--elementos); /* Color basado en variable */
+    font-size: 25px; /* Tamano de fuente mediano */
+    margin-bottom: 40px; /* Margen inferior */
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+main { /* Estilos para el cuerpo principal de la pagina */
+    display: flex; /* Contenedor flexbox */
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    flex-direction: column; /* Direccion en columna */
 }
 
-h3 {
-    font-size: 35px;
-    margin-bottom: 40px;
-    color: var(--elementos);
+h3 { /* Estilos generales para subtitulos h3 */
+    font-size: 35px; /* Tamano de fuente grande */
+    margin-bottom: 40px; /* Margen inferior */
+    color: var(--elementos); /* Color basado en variable */
 }
 
-.index-nav {
-    position: sticky;
-    top: 80px;
-    left: 0;
-    border-radius: 45px;
-    border: 2px solid var(--elementos);
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: white;
-    z-index: 2;
+.index-nav { /* Estilos para la barra de navegacion secundaria o indice */
+    position: sticky; /* Posicion pegajosa al hacer scroll */
+    top: 80px; /* Distancia desde arriba al quedarse fija */
+    left: 0; /* Izquierda en cero */
+    border-radius: 45px; /* Bordes muy redondeados */
+    border: 2px solid var(--elementos); /* Borde con variable */
+    margin-top: 20px; /* Margen superior */
+    padding: 10px 20px; /* Relleno interno */
+    background-color: white; /* Fondo blanco */
+    z-index: 2; /* Capa de apilamiento */
 }
 
-.about {
-    height: 80vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70%;
+.about { /* Estilos para la seccion acerca de */
+    height: 80vh; /* Altura del ochenta por ciento de la pantalla */
+    text-align: center; /* Texto centrado */
+    display: flex; /* Contenedor flexbox */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    flex-direction: column; /* Direccion en columna */
+    width: 70%; /* Ancho del setenta por ciento */
 }
 
-p {
-    font-size: 23px;
-    line-height: 35px;
-    margin-bottom: 40px;
+p { /* Estilos generales para los parrafos */
+    font-size: 23px; /* Tamano de fuente */
+    line-height: 35px; /* Altura de linea para legibilidad */
+    margin-bottom: 40px; /* Margen inferior */
 }
 
-.text-generic {
-    width: 70%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top: 5px solid var(--elementos);
+.text-generic { /* Estilos para contenedores de texto genericos */
+    width: 70%; /* Ancho del setenta por ciento */
+    height: 80vh; /* Altura del ochenta por ciento */
+    display: flex; /* Contenedor flexbox */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    flex-direction: column; /* Direccion en columna */
+    border-top: 5px solid var(--elementos); /* Borde superior */
 }
 
-.text-generic .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text-generic .container { /* Contenedor interno dentro de texto generico */
+    display: flex; /* Contenedor flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
 }
 
-.text-generic img {
-    flex: 0;
+.text-generic img { /* Imagenes dentro de texto generico */
+    flex: 0; /* No se estira ni encoge */
 }
 
-.text-generic p {
-    flex: 1;
+.text-generic p { /* Parrafos dentro de texto generico */
+    flex: 1; /* Ocupa el espacio disponible */
 }
 
-.marques {
-    width: 100%;
-    border-top: 5px solid var(--elementos);
-    border-bottom: 5px solid var(--elementos);
-    padding: 20px 0;
-    text-align: center;
+.marques { /* Estilos para la marquesina o seccion destacada */
+    width: 100%; /* Ancho completo */
+    border-top: 5px solid var(--elementos); /* Borde superior */
+    border-bottom: 5px solid var(--elementos); /* Borde inferior */
+    padding: 20px 0; /* Relleno vertical */
+    text-align: center; /* Texto centrado */
 }
 
-.marques h3 {
-    font-size: 40px;
+.marques h3 { /* Titulos h3 dentro de la marquesina */
+    font-size: 40px; /* Tamano de fuente grande */
 }
 
-.carrusel-img {
-    height: 120px;
-    border-radius: 50%;
-    margin: 0 30px;
+.carrusel-img { /* Estilos para las imagenes del carrusel */
+    height: 120px; /* Altura fija */
+    border-radius: 50%; /* Bordes completamente circulares */
+    margin: 0 30px; /* Margen horizontal */
 }
-
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */

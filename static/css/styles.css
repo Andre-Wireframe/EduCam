@@ -1,100 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap'); /* Importa la tipografia Google Sans */
+/*Importamos la tipografia que usaremos en el proyecto*/
 /*@import url(/static/bootstrap/css/bootstrap.min.css);*/
 
 /* Andre-wireframe */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Google Sans", sans-serif;
+*{ /* Selector universal para aplicar estilos a todos los elementos de la pagina */
+    padding: 0; /* Relleno en cero */
+    margin: 0; /* Margen en cero */
+    box-sizing: border-box; /* Modelo de caja con bordes incluidos */
+    font-family: "Google Sans", sans-serif; /* Tipo de fuente principal */
 }
 
-:root {
-    --fondo-1: white;
-    --fondo-2: rgba(216, 33, 216, 0.118);
-    --elementos: rgb(195, 103, 199);
+:root { /* Variables globales de colores */
+    --fondo-1: white; /* Color de fondo blanco */
+    --fondo-2: rgba(216, 33, 216, 0.118); /* Color de fondo secundario */
+    --elementos: rgb(195, 103, 199); /* Color para elementos */
 }
 
-html {
-    scrollbar-width: auto;
-    scroll-behavior: smooth;
-    scrollbar-color: var(--elementos) var(--fondo-2);
+html { /* Configuracion del elemento raiz */
+    scrollbar-width: auto; /* Ancho de barra de desplazamiento */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+    scrollbar-color: var(--elementos) var(--fondo-2); /* Colores de barra de desplazamiento */
 }
 
-.button-underline {
-    text-decoration: none;
-    font-size: 25px;
-    padding: 15px 20px;
-    border-bottom: 5px solid var(--elementos);
-    font-weight: 600;
-    color: rgb(109, 41, 111);
-    transition-duration: 0.3s;
+.button-underline { /* Estilos para botones con linea inferior */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 25px; /* Tamano de fuente grande */
+    padding: 15px 20px; /* Relleno interno */
+    border-bottom: 5px solid var(--elementos); /* Borde inferior grueso */
+    font-weight: 600; /* Grosor de fuente semi negrita */
+    color: rgb(109, 41, 111); /* Color de texto */
+    transition-duration: 0.3s; /* Duracion de transicion */
 }
 
-.button-underline:hover {
-    background-color: rgb(243, 226, 244);
+.button-underline:hover { /* Efecto al pasar el cursor por el boton */
+    background-color: rgb(243, 226, 244); /* Color de fondo al pasar el cursor */
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 0 10px;
-    z-index: 20;
-    background-color: white;
-    border-bottom: 2px solid var(--elementos);
+.navbar { /* Estilos de la barra de navegacion */
+    position: fixed; /* Posicion fija en la pantalla */
+    width: 100%; /* Ancho completo */
+    display: flex; /* Contenedor flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alineacion vertical centrada */
+    height: 70px; /* Altura fija */
+    padding: 0 10px; /* Relleno horizontal */
+    z-index: 20; /* Capa de apilamiento superior */
+    background-color: white; /* Fondo blanco */
+    border-bottom: 2px solid var(--elementos); /* Borde inferior */
 }
 
-.logo-img {
-    border-radius: 100%;
-    margin: 0 10px;
+.logo-img { /* Estilos para la imagen del logotipo */
+    border-radius: 100%; /* Bordes completamente redondeados */
+    margin: 0 10px; /* Margen horizontal */
 }
 
-.nav-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-title { /* Contenedor del titulo de navegacion */
+    display: flex; /* Contenedor flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
 }
 
-.nav-title a {
-    text-decoration: none;
-    color: var(--elementos);
-    font-size: 22px;
-    font-weight: 600;
+.nav-title a { /* Enlace dentro del titulo de navegacion */
+    text-decoration: none; /* Sin subrayado */
+    color: var(--elementos); /* Color del texto */
+    font-size: 22px; /* Tamano de fuente */
+    font-weight: 600; /* Grosor de fuente */
 }
 
-.nav-items {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 20px;
-    list-style: none;
+.nav-items { /* Contenedor de elementos de navegacion */
+    display: flex; /* Contenedor flexbox */
+    justify-content: space-evenly; /* Distribucion uniforme de elementos */
+    align-items: center; /* Centrado vertical */
+    margin-right: 20px; /* Margen derecho */
+    list-style: none; /* Sin viñetas de lista */
 }
 
-.nav-item {
-    margin: 0 13px;
-    font-size: 20px;
-    padding: 10px;
-    transition-duration: 0.3s;
+.nav-item { /* Estilo individual de cada elemento de navegacion */
+    margin: 0 13px; /* Margen horizontal */
+    font-size: 20px; /* Tamano de fuente */
+    padding: 10px; /* Relleno interno */
+    transition-duration: 0.3s; /* Duracion de transicion */
 }
 
-.active {
-    border-bottom: 4px solid var(--elementos);
+.active { /* Clase para indicar elemento activo */
+    border-bottom: 4px solid var(--elementos); /* Borde inferior distintivo */
 }
 
-.nav-item a {
-    color: var(--elementos);
-    text-decoration: none;
-    font-weight: 500;
+.nav-item a { /* Enlace dentro de cada elemento de navegacion */
+    color: var(--elementos); /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 500; /* Grosor de fuente medio */
 }
 
-.nav-item:hover {
-    background-color: rgb(243, 226, 244);
-    border-radius: 5px;
+.nav-item:hover { /* Efecto al pasar el cursor sobre un elemento del menu */
+    background-color: rgb(243, 226, 244); /* Color de fondo al pasar el cursor */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
 }
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
