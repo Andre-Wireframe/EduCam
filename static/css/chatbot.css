@@ -94,6 +94,7 @@ input:focus {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .burble {

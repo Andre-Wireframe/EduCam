@@ -55,7 +55,7 @@
             <img class="logo" src="/static/img/logo.png" alt="Logo">
         </div>
         <div class="chat">
-            <div class="chat-container">
+            <div class="chat-container" id="chat-container">
                 <div class="burble user">
                     Menciona algunos metodos anticonceptivos utiles para mi.
                 </div>
@@ -66,10 +66,13 @@
                 </div>
             </div>
             <div class="controls">
-                <input type="text">
-                <button class="chat-button">🔎</button>
+                <input type="text" id="input">
+                <button onclick="make_promp()" class="chat-button">🔎</button>
             </div>
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/static/js/chatbot.js"></script>
 </body>
 </html>
