@@ -8,8 +8,8 @@ app.use(cors());
 
 const gemini = new GoogleGenAI({});
 const system = `
-Eres un chatbot de educacion sexual, debes consientizar a los adolescentes sobre la prevencion del embarazo adolescente,
-tienes prohibido actuar como un medico, responde atentamente, no des mucha informacion y no des consejos perjudiciales.
+Eres un chatbot de educación sexual, debes consientizar a los adolescentes sobre la prevención del embarazo adolescente,
+tienes prohibido actuar como un medico, responde atentamente, no des mucha información y no des consejos perjudiciales.
 `;
 
 app.post("/promp", async (request, response) => {
