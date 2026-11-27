@@ -43,4 +43,6 @@ app.post("/promp", async (request, response) => {
     }
 });
 
+app.post
+
 app.listen(3001, () => console.log("Servidor listo en 3001"));

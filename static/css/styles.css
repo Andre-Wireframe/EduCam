@@ -26,10 +26,13 @@ html {
     text-decoration: none;
     font-size: 25px;
     padding: 15px 20px;
+    border: 0;
     border-bottom: 5px solid var(--elementos);
     font-weight: 600;
     color: rgb(109, 41, 111);
     transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 .button-underline:hover {

@@ -2,6 +2,62 @@
 
 /* Andre-wireframe */
 
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+form {
+    border: 3px solid var(--elementos);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid var(--elementos);
+    color: var(--elementos);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 23px;
+    color: var(--elementos);
+    width: 100%;
+    flex: 2;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--elementos);
+    transform: scale(2);
+    cursor: pointer;
+    border: 1px solid var(--elementos);
+    flex: 0.7;
+    margin: 0;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.link {
+    color: var(--elementos);
+    font-size: 20px;
+    margin-top: 15px;
+}
 
 /* 01000001 01101110 01100100 01110010 01100101 00101101 01110111 01101001 01110010 01100101 01100110 01110010 01100001 01101101 01100101 */
